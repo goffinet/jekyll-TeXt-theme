@@ -109,3 +109,36 @@ ko: &KO
 
 ko-KR:
   <<: *KO
+
+## => French
+########################
+fr: &FR
+  SUBSCRIBE               : "Suivre"
+  READMORE                : "Lire plus"
+  SEARCH                  : "Recherche"
+  CANCEL                  : "Annuler"
+  VIEWS                   : "vues"
+  LAST_UPDATED            : "Dernière mis à jour"
+  PREVIOUS                : "PRÉCÉDENT"
+  NEXT                    : "PROCHAIN"
+  ARTICLE_DATE_FORMAT     : "%b %d, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%b %d"
+  STATISTICS              : "[POST_COUNT] d'articles de post, [PAGE_COUNT] de pages."
+  LICENSE_ANNOUNCE        : "L'usage de ce document est soumis à licence [LICENSE]e."
+  POST_ON_GITHUB          : "Editer sur Github"
+  FOLLOW_ME               : "Suivez-moi sur [NAME]."
+  FOLLOW_US               : "Suivez-nous sur [NAME]."
+  EMAIL_ME                : "Envoyer-moi un Email."
+  EMAIL_US                : "Envoyer-moi un Email."
+  COPYRIGHT_DATES         : "2019"
+
+fr-BE:
+  <<: *FR
+fr-ca:
+  <<: *FR
+fr-fr:
+  <<: *FR
+fr-lu:
+  <<: *FR
+fr-ch:
+  <<: *FR
